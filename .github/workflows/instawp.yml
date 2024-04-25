@@ -1,8 +1,6 @@
 name: InstaWP WordPress Testing
 
-on:
-  pull_request:
-    types: [opened]
+on: push
 
 jobs:
   create-wp-for-testing:
